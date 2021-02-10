@@ -1,0 +1,79 @@
+C++ is used for this project. There are total 5 files as shown below
+heap.hpp, heap.cpp, util.hpp, util.cpp and main.cpp
+
+Heap.h:
+Heap.h makes a struct component
+with the goal that components in the load can be controlled by a pointer of exhibit of components.
+Heap.h additionally has
+   #include <iostream> so that it can be shared into Heap.cpp file.
+
+util.h:
+util.h likewise has incorporates for Heap.h so it can get to all capacity revelations from
+  Heap and the include to <iostream> and <fstream> is there so that it can
+  access to those libraries. util.h also contains
+   declarations of function for ReadInputFile and nextCommand
+
+   functions:
+   Heap: introduces the heap with limit size n and size 0.
+   valByIndx:  returns the incentive at a specific list.
+   get_Size: restores the heap size.
+   getCapacity: restores the limit of the heap.
+   insertKey: embeds another key equivalent to 'k' into the heap.
+   IncreaseKey: builds the key field of the heap component highlighted by list to value.
+   DeleteMax: evacuates least  root from heap.
+   Heapify:  recursive technique that heapifies a subtree with the root at a given record.
+   display:  prints out the heap data.
+   buildHeap: assembles the heap by replicating the components of a variety of type ELEMENT into the heap.
+   right:gets the file of right child node at a specific file.
+   left: gets the file of left child node at a specific file.
+   parent:gets the record of parent node at a specific list.
+   swap: swaps the substance of two variable into one another, individually.
+
+C++ files:
+These are the source records that contain all the
+rationale for the capacities that will communicate with
+the primary cpp record to get the program running easily.
+
+Header files:
+The header documents right now
+project are the Heap.h and the util.h.
+These are the c++ documents which contain
+all definitions and capacity assertions
+which will go to their particular cpp records.
+
+Heap.cpp
+Heap.cpp contains the rationale for all the capacities
+that will be utilized for the heap in the main.
+
+functions:
+peruses in the following order and sift through
+the fitting conditions to have the option to keep the program
+running smooth.For model, it ensures the K order peruses
+in 3 extra sources of info and the D order peruses one information.
+This capacity is liable for perusing in client input
+toward the start of the principle.
+
+util.cpp:
+util.cpp contains utility capacities that will be utilized
+by the primary to execute the program proficiently.
+
+main.cpp:
+main.cpp is the primary piece of the program that
+contains the control rationale for the genuine program.
+It is some time circle with a switch case within it
+that contains all the rationale to guarantee that S will sop the program.
+C n makes an unfilled load with limit equivalent to n and sit tight for
+the following order. R peruses in the exhibit A from record HEAPinput.txt,
+calls the direct time fabricate stack calculation to construct the maximum store
+in view of An and hangs tight for the following order. I f k will embed a component
+with key equivalent to k into the present store with the relating
+banner set to f and hang tight for the following order. D f erases the
+greatest component from the load with the comparing banner set
+to f, and prints the key field of the erased component on the
+screen and hangs tight for the following order. K f I v makes the
+program expands the key of component with record I to v with
+the compare ing flag set to f.
+
+readInputFile: work that ensures that peruses in n
+components from the heap.txt record to be populated into the
+heap for the program to utilize.
